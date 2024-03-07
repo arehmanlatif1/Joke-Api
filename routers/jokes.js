@@ -5,7 +5,7 @@ const router = Router();
 
 router.get("/", controller.getJokes);
 router.get("/:id", controller.getJoke);
-router.post("/", controller.createJoke);
+router.post("/:id", controller.createJoke);
 router.put("/:id", controller.updateJoke);
 router.delete("/:id", controller.deleteJoke);
 

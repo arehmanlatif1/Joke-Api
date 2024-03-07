@@ -6,7 +6,7 @@ let jokeSchema = new Schema({
     category: {
         type: String,
         required: true,
-        enum: ["general", "programming", "dad", "knock-knock"],
+        enum: ["general", "programming", "dad", "knock-knock", "etc"],
     },
     setup: {
         type: String,
