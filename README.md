@@ -44,3 +44,5 @@ My database is now setup, so its time to build an API around it.
 5. A route to Delete(`'/api/jokes/:id'`) that find a joke by its ID and Delete.
 
 ![Delete-Joke](/Postman-SS/delete.png)
+
+
