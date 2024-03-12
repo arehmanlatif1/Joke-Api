@@ -1,6 +1,10 @@
 import mongoose, { Mongoose } from "mongoose";
 import chalk from "chalk";
 
+const connectionString = process.env.DB_URL || "mongodb://localhost/project3-api"
+
+mongoose.connect(connectionString)
+
 mongoose.set("returnOriginal", false);
 
 mongoose.connect("mongodb://127.0.01:27017/:project3-api").catch((err) => {
